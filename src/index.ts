@@ -34,7 +34,7 @@ async function run() {
             "function hello() public pure returns (string memory)"
         ],
         new ethers.providers.Web3Provider(getEth())
-    )
+    );
 
     document.body.innerHTML = "<h1>" + await hello.hello() + "</h1>"
 }
