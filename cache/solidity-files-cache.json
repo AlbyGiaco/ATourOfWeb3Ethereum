@@ -35,6 +35,150 @@
       "artifacts": [
         "HelloWorld"
       ]
+    },
+    "C:\\Users\\albyg\\Documents\\Bridge\\ATourOfWeb3Ethereum\\contracts\\Counter.sol": {
+      "lastModificationDate": 1646921435873,
+      "contentHash": "6ecf51492cdcf5314a5c71759ef6c850",
+      "sourceName": "contracts/Counter.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counter"
+      ]
+    },
+    "C:\\Users\\albyg\\Documents\\Bridge\\ATourOfWeb3Ethereum\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1646303164170,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "C:\\Users\\albyg\\Documents\\Bridge\\ATourOfWeb3Ethereum\\contracts\\Hero.sol": {
+      "lastModificationDate": 1647439823015,
+      "contentHash": "648d97d07fb4d665894b1d9dcbfe46ca",
+      "sourceName": "contracts/Hero.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Hero"
+      ]
+    },
+    "C:\\Users\\albyg\\Documents\\Bridge\\ATourOfWeb3Ethereum\\contracts\\TestHero.sol": {
+      "lastModificationDate": 1647440066737,
+      "contentHash": "907cba0c7bbf6850b59d3cdf62a983a9",
+      "sourceName": "contracts/TestHero.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Hero.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TestHero"
+      ]
     }
   }
 }
