@@ -179,6 +179,156 @@
       "artifacts": [
         "TestHero"
       ]
+    },
+    "C:\\Users\\albyg\\Documents\\Bridge\\ATourOfWeb3Ethereum\\contracts\\Fallback.sol": {
+      "lastModificationDate": 1648730305648,
+      "contentHash": "aa43a10eb86be6d817b102e1a6a977f0",
+      "sourceName": "contracts/Fallback.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Fallback",
+        "IFallback"
+      ]
+    },
+    "C:\\Users\\albyg\\Documents\\Bridge\\ATourOfWeb3Ethereum\\contracts\\Alice.sol": {
+      "lastModificationDate": 1649087462861,
+      "contentHash": "9b62139c55442ddcc655396a07144de6",
+      "sourceName": "contracts/Alice.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol",
+        "./Storage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Alice"
+      ]
+    },
+    "C:\\Users\\albyg\\Documents\\Bridge\\ATourOfWeb3Ethereum\\contracts\\Bob.sol": {
+      "lastModificationDate": 1649085801274,
+      "contentHash": "bbc78294efcb3f29a3c49dc2456600f6",
+      "sourceName": "contracts/Bob.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol",
+        "./Alice.sol",
+        "./Storage.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Bob"
+      ]
+    },
+    "C:\\Users\\albyg\\Documents\\Bridge\\ATourOfWeb3Ethereum\\contracts\\Storage.sol": {
+      "lastModificationDate": 1649086829041,
+      "contentHash": "eef436948be37c2f2fbb4e035c069193",
+      "sourceName": "contracts/Storage.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Storage"
+      ]
     }
   }
 }
